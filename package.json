@@ -1,0 +1,34 @@
+{
+  "name": "raydium-launchpad-bundler",
+  "version": "1.0.0",
+  "description": "Solana Web3 trading bot for Raydium Launchlab with bundle buy and take profit",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "solana",
+    "raydium",
+    "trading-bot",
+    "web3",
+    "jito",
+    "helius"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.58",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
